@@ -1,0 +1,140 @@
+
+ *{
+        overflow:auto;
+    }
+
+body { background-color : #4c4f4f;
+    font-family:  Arial;
+    /*box-shadow: 0px 0px 20px 20px black;*/
+        }
+    
+    div.sisu { background-color :white;
+               margin : 60px 10% 80px 10%;
+               padding : 0px 30px 30px 30px;
+               min-width:350px;
+               box-shadow: 0px 0px 20px 20px rgba(235, 91, 91, 0.2);
+               overflow:visible;
+               
+        }
+    h1 { text-align: center;
+         margin-top: 8px;   
+         margin-bottom: 8px;
+        }
+    p.kirjeldus{    text-align: center;
+                    max-width: 400px;
+                    display:inline-block;  
+                    font-size:10px;
+    }
+    .center {
+        text-align: center;
+        width: 100%;
+    }
+    div.kirjeldus{  text-align: center;
+                    
+    }
+    div.category {
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top:0;
+        overflow:visible;
+    }
+    p.category { background-color: black;
+        color: white;
+        display: inline-block;
+        margin-top: -15px;
+        margin-bottom: 0px;
+        padding: 8px 20px;
+        font-weight: bold;
+        font-size: 16px;
+                
+        }    
+    div.separator {
+        height: 1px;
+        width: 100px;
+        background-color: black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    div.info{
+        position:relative;
+        display:inline-block;
+    }
+    table.info{
+        border :"1";position:absolute;bottom:0;
+        width:100%;color:white;background-color:#FF000069;height:80px
+    }
+    table.info td{
+        text-align: center;
+        vertical-align: top;
+        padding:1px;
+        font-size: 10px;
+    }
+
+    img.info{
+        display:box;
+        max-height: 400px;
+        object-fit:cover;
+        min-height: 200px;
+        background-color:lightgray;
+
+    }
+    div.col{
+        width:45%;
+        margin-top:20px;
+
+    }
+    div.col h2{
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        border-bottom:3px solid green;
+        padding-bottom:3px;
+        
+    }
+    div.col1{
+        /*background-color: lightgreen;*/
+        /*text-align:center;*/
+        display:inline-block;
+        margin-right:10%;
+    }
+    div.col2{
+        float:right;
+        /*background-color: lightblue;*/
+        padding-top:0;    
+    }
+    div.koostis p{
+        text-align:center;
+        font-size:15px;
+        border:1px solid #686A6C70;
+        padding:9px 0;
+        margin-top:1px;
+        margin-bottom:0;
+        /*display:inline-block;*/
+    }
+    table.juhised p.number{
+        background-color: gray;
+        color:white;
+        font-size:14px;
+        font-weight:bold;
+        width:25px;
+        text-align:center;
+        height:25px;
+        padding-top:4px;
+        box-sizing: border-box;
+        border-radius: 50%;
+        margin-top: 0;
+        margin:0;
+    }
+    table.juhised td.juhised_step{
+        font-size: 10px;
+        padding-left: 10px;
+       
+    }
+    table.juhised td{
+        vertical-align: top;
+    }
+    table.juhised tr{
+        height:20px;
+    }
+
+    
